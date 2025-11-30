@@ -6,7 +6,8 @@ function Review() {
   return (
     <div className="review">
       
-      <p className='author'><a id={`author-${data[c].id}`}>{data[c].name}</a></p>
+      <p className='author'><a id={`author-1`}>{data[c].name}</a></p>
+      
       <p className='job'>{data[c].job}</p>
       <p className='info'>{data[c].text}</p>
       <img className='person-img' style={{height:"244px",width:"244px"}}src={data[c].image}/>
