@@ -5,7 +5,7 @@ function Review() {
     let[c,setc] = useState(0)
   return (
     <div className="review">
-      <a className="review-heading">Our Reviews</a>
+      
       <p className='author'><a id={`author-${data[c].id}`}>{data[c].name}</a></p>
       <p className='job'>{data[c].job}</p>
       <p className='info'>{data[c].text}</p>
