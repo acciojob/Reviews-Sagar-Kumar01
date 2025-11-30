@@ -6,7 +6,7 @@ function Review() {
   return (
     <div className="review">
       
-      <p className='author'><a id={`author-1`}>{data[c].name}</a></p>
+      <p className='author' id={`author-${data[c].id}`} ><a>{data[c].name}</a></p>
       
       <p className='job'>{data[c].job}</p>
       <p className='info'>{data[c].text}</p>
